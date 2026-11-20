@@ -18,7 +18,7 @@
     <section><div class="top"><div><h2>☾ 曲リスト <span id="count">0</span></h2><small>気になる曲を見つけたら、コピーしてリクエストしてね。</small></div></div><div class="tools"><input class="search" id="q" placeholder="曲名・アーティストを検索"><button id="draw">🎲 今日の運曲</button></div><div class="chips" id="genres"></div><div class="initial-title">頭文字で探す（曲名・アーティストどちらでもOK）</div><div class="initials" id="initials"></div><div class="filters"><span>並び替え</span><select id="sort"><option value="artist">アーティスト順</option><option value="title">曲名順</option></select></div><div id="rows" class="rows"><div class="empty">曲リストを読み込み中…</div></div><p class="help">※ 曲の追加・編集、得意曲・お気に入りの設定は、ちょれがコードで管理しています。</p></section>
     <footer>ちょれ🍊💍 · MOONLIGHT SONGBOOK</footer>
   </main>
-  <script src="song-data.js"></script>
+  <script src="song-data.js?v=20261121b"></script>
   <script>
     let genre='すべて',initial='すべて';const $=s=>document.querySelector(s);const collator=new Intl.Collator('ja',{sensitivity:'base',numeric:true});const icon=s=>`${s.practice?'🔺 ':''}${s.type==='guitar'?'🎸':s.type==='backing'?'🎸 🎤':'🎙'}`;const hira=s=>(s||'').toLowerCase().replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60));const reading=(s,key)=>s[`${key}Reading`]||s[key]||'';const norm=s=>hira(s).replace(/[\s　]/g,'');
     function groupFor(value){const c=norm(value)[0]||'';if(/[a-z0-9]/.test(c))return'A-Z';const groups={あ:'あいうえお',か:'かきくけこがぎぐげご',さ:'さしすせそざじずぜぞ',た:'たちつてとだぢづでど',な:'なにぬねの',は:'はひふへほばびぶべぼぱぴぷぺぽ',ま:'まみむめも',や:'やゆよ',ら:'らりるれろ',わ:'わをん'};return Object.entries(groups).find(([,v])=>v.includes(c))?.[0]||'その他'}
