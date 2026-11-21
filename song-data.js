@@ -3005,4 +3005,13 @@ const songs = [
     "special": false,
     "favorite": false
   }
+  {
+    "title": "制服",
+    "artist": "松田聖子",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
 ];
