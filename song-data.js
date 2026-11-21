@@ -3006,6 +3006,15 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "おもかげ（prpduced by Vaundy）",
+    "artist": "milet,Aimer,幾多りら",
+    "genre": "J-POP",
+    "type": "Karaoke",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "制服",
     "artist": "松田聖子",
     "genre": "J-POP",
