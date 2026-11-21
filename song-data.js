@@ -3004,7 +3004,7 @@ const songs = [
     "practice": false,
     "special": false,
     "favorite": false
-  }
+  },
   {
     "title": "制服",
     "artist": "松田聖子",
@@ -3013,5 +3013,5 @@ const songs = [
     "practice": true,
     "special": false,
     "favorite": false
-  },
+  }
 ];
