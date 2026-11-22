@@ -288,6 +288,15 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "元彼女のみなさまへ",
+    "artist": "コレサワ",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "おかえり",
     "artist": "絢香",
     "genre": "J-POP",
@@ -696,7 +705,7 @@ const songs = [
     "title": "渡月橋〜君想ふ〜",
     "artist": "倉木麻衣",
     "genre": "アニメ",
-    "type": "karaoke",
+    "type": "guitar",
     "practice": false,
     "special": false,
     "favorite": false
@@ -705,7 +714,7 @@ const songs = [
     "title": "Secret of my heart",
     "artist": "倉木麻衣",
     "genre": "アニメ",
-    "type": "karaoke",
+    "type": "guitar",
     "practice": false,
     "special": false,
     "favorite": false
@@ -714,7 +723,7 @@ const songs = [
     "title": "Time after time〜花舞う街で〜",
     "artist": "倉木麻衣",
     "genre": "アニメ",
-    "type": "karaoke",
+    "type": "guitar",
     "practice": false,
     "special": false,
     "favorite": false
