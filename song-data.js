@@ -135,6 +135,15 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "オワリはじまり",
+    "artist": "かりゆし58",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "3636",
     "artist": "あいみょん",
     "genre": "J-POP",
