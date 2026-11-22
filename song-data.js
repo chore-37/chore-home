@@ -2043,6 +2043,15 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "クリスマスソング",
+    "artist": "backnumber",
+    "genre": "J-POP",
+    "type": "guitar",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "水平線",
     "artist": "backnumber",
     "genre": "J-POP",
@@ -2457,7 +2466,7 @@ const songs = [
     "favorite": false
   },
   {
-    "title": "Hello Again",
+    "title": "Hello Again~昔からある場所~",
     "artist": "My Little Lover",
     "genre": "J-POP",
     "type": "karaoke",
