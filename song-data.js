@@ -351,6 +351,15 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "花火",
+    "artist": "aiko",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "手紙〜拝啓　十五の君へ〜",
     "artist": "アンジェラ・アキ",
     "genre": "J-POP",
