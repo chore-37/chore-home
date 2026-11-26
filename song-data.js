@@ -61,6 +61,29 @@ const artistReadings = {
   '40mP':'よんじゅうめーとるぴー','40mP、シャノ':'よんじゅうめーとるぴーしゃの','リーガルリリー':'りーがるりりー','りりあ':'りりあ','ワルキューレ':'わるきゅーれ','adieu':'あでゅー','BEGIN':'びぎん','Daito Music':'だいとみゅーじっく','Doughnuts Hole':'どーなつほーる','erica':'えりか','Flower':'ふらわー','Hamp Back':'はんぷばっく','JUDY AND MARY':'じゅでぃあんどまりー','Jungle Smile':'じゃんぐるすまいる','Laughing hick':'らふぃんぐひっく','Little Glee Monster':'りとるぐりーもんすたー','MAISONdes':'めぞんで','mihoro':'みほろ','miwa':'みわ','MUSH&Co.':'まっしゅあんどこー','My Hair is Bad':'まいへあーいずばっど','My Little Lover':'まいりとるらばー','MACO':'まこ','nano.RIPE':'なのらいぷ','Novelbright':'のーべるぶらいと','n-buna':'なぶな','official髭男dism':'おふぃしゃるひげだんでぃずむ','PEDRO':'ぺどろ','PUFFY':'ぱふぃー','PRINCESS PRINCESS':'ぷりんせすぷりんせす','P丸様':'ぴーまるさま','Rihwa':'りふぁ','SaucyDog':'さうしーどっぐ','SCAHDAL':'すきゃんだる','SUPER BEAVER':'すーぱーびーばー','sekai no owari':'せかいのおわり','supercell':'すーぱーせる','tuki.':'つき','zone':'ぞーん'
 };window.artistReadings = artistReadings;
 
+const titleReadings = {
+  "花火":"はなび","夜に駆ける":"よるにかける","あの夢をなぞって":"あのゆめをなぞって","優しい彗星":"やさしいすいせい","群青":"ぐんじょう",
+  "瞳":"ひとみ","楓":"かえで","猫":"ねこ","恋人失格":"こいびとしっかく","明日も":"あしたも","君に出会えたから":"きみにであえたから","変わらないもの":"かわらないもの",
+  "制服":"せいふく","炎":"ほむら","紅蓮華":"ぐれんげ","点描の唄":"てんびょうのうた","僕のこと":"ぼくのこと","怪獣の花唄":"かいじゅうのはなうた",
+  "花になって":"はなになって","高嶺の花子さん":"たかねのはなこさん","島人ぬ宝":"しまんちゅぬたから","雪の華":"ゆきのはな","涙そうそう":"なだそうそう",
+  "夜明けと蛍":"よあけとほたる","君の知らない物語":"きみのしらないものがたり","それを愛と呼ぶなら":"それをあいとよぶなら",
+  "IGNITE":"いぐないと","INNOCENCE":"いのせんす","I wanna see you":"あいわなすぃーゆー","Shine":"しゃいん","Silly":"しりー",
+  "answer":"あんさー","PRIDE":"ぷらいど","FirstLove":"ふぁーすとらぶ","Moon Crying":"むーんくらいんぐ",
+  "Arrietty's Song":"ありえってぃずそんぐ","Never glow up":"ねばーぐろーあっぷ","MY ALL":"まいおーる","SEASONS":"しーずんず",
+  "Voyage":"ぼやーじゅ","more than words":"もあざんわーず","LET IT OUT":"れっといっとあうと","Lemon":"れもん",
+  "shout baby":"しゃうとべいびー","Mela!":"めら","KissHug":"きすはぐ","HAPPYBIRTHDAY":"はっぴーばーすでー",
+  "beautifulさ":"びゅーてぃふるさ","My landscape":"まいらんどすけーぷ","Period":"ぴりおど","Distance":"でぃすたんす",
+  "NAO":"なお","Over Drive":"おーばーどらいぶ","crossing field":"くろっしんぐふぃーるど",
+  "Catch the Moment":"きゃっちざもーめんと","HADASHi NO STEP":"はだしのすてっぷ",
+  "Hello Again~昔からある場所~":"はろーあげいんむかしからあるばしょ",
+  "Don't Cry anymore":"どんとくらいえにーもあ","ILOVE…":"あいらぶ","Pretender":"ぷりてんだー",
+  "Wherever you are":"うぇあえばーゆーあー","M":"えむ","Perfect Day":"ぱーふぇくとでい",
+  "LoveSong":"らぶそんぐ","Summersong":"さまーそんぐ","HELLO":"はろー",
+  "Happy Birthday to you you":"はっぴーばーすでーとぅーゆーゆー","Namidairo":"なみだいろ",
+  "YOU":"ゆー","Good-bye days":"ぐっばいでいず","feel my soul":"ふぃーるまいそうる",
+  "Rollig star":"ろーりんぐすたー","secret base":"しーくれっとべーす"
+};
+
 const songs = [
   {
     "title": "夢見る少女じゃいられない",
