@@ -28,7 +28,7 @@
     const reading=(s,key)=>s[key+'Reading']||(key==='artist'&&typeof artistReadings!=='undefined'&&artistReadings[s.artist])||(key==='title'&&typeof titleReadings!=='undefined'&&titleReadings[s.title])||(key==='title'&&typeof automaticTitleReadings!=='undefined'&&automaticTitleReadings.get(s.title))||s[key]||'';
     const rowsByInitial={あ:['あ','い','う','え','お'],か:['か','き','く','け','こ'],さ:['さ','し','す','せ','そ'],た:['た','ち','つ','て','と'],な:['な','に','ぬ','ね','の'],は:['は','ひ','ふ','へ','ほ'],ま:['ま','み','む','め','も'],や:['や','ゆ','よ'],ら:['ら','り','る','れ','ろ'],わ:['わ','を','ん']};
     const kanaGroups={あ:'あいうえおぁぃぅぇぉ',か:'かきくけこがぎぐげご',さ:'さしすせそざじずぜぞ',た:'たちつてとだぢづでど',な:'なにぬねの',は:'はひふへほばびぶべぼぱぴぷぺぽ',ま:'まみむめも',や:'やゆよゃゅょ',ら:'らりるれろ',わ:'わをん'};
-    function initialChar(value){const c=norm(value)[0]||'';if(/[a-z0-9]/.test(c))return 'その他';for(const group in kanaGroups){if(kanaGroups[group].includes(c)){const row=rowsByInitial[group];for(const x of row){if(kanaGroups[x]&&kanaGroups[x].includes(c))return x;return group}}return 'その他'}
+    function initialChar(value){const c=norm(value)[0]||'';if(/[a-z0-9]/.test(c))return 'その他';for(const group in kanaGroups){if(kanaGroups[group].includes(c)){const row=rowsByInitial[group];for(const x of row){if(kanaGroups[x]&&kanaGroups[x].includes(c))return x;return group}}}return 'その他'}
     function groupFor(value){const c=initialChar(value);for(const group in rowsByInitial){if(rowsByInitial[group].includes(c))return group}return 'その他'}
     const marks=s=>(s.special?'<span class="mark special">★ 得意曲</span>':'')+(s.favorite?'<span class="mark favorite">☆ お気に入り</span>':'');
     function matchesInitial(s){if(initial==='すべて')return true;const r=reading(s,$('#sort').value);return groupFor(r)===initial&&(subInitial==='すべて'||initialChar(r)===subInitial)}
