@@ -113,11 +113,38 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "only my railgun",
+    "artist": "frip Side",
+    "genre": "アニメ",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "sister's noise",
+    "artist": "frip Side",
+    "genre": "アニメ",
+    "type": "karaoke",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "愛を込めて花束を",
     "artist": "Superfly",
     "genre": "J-POP",
     "type": "karaoke",
     "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "アイノカタチ",
+    "artist": "MISIA",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": false,
     "special": false,
     "favorite": false
   },
