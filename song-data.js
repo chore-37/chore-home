@@ -114,7 +114,7 @@ const songs = [
   },
   {
     "title": "only my railgun",
-    "artist": "frip Side",
+    "artist": "fripSide",
     "genre": "アニメ",
     "type": "karaoke",
     "practice": true,
@@ -123,7 +123,7 @@ const songs = [
   },
   {
     "title": "sister's noise",
-    "artist": "frip Side",
+    "artist": "fripSide",
     "genre": "アニメ",
     "type": "karaoke",
     "practice": false,
@@ -141,7 +141,7 @@ const songs = [
   },
   {
     "title": "HANABI",
-    "artist": "Mr.Childoren",
+    "artist": "Mr.Children",
     "genre": "J-POP",
     "type": "karaoke",
     "practice": false,
