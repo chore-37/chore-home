@@ -104,6 +104,24 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "夢をかなえてドラえもん",
+    "artist": "mao",
+    "genre": "アニメ",
+    "type": "karaoke",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "愛を込めて花束を",
+    "artist": "Superfly",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "君はロックを聴かない",
     "artist": "あいみょん",
     "genre": "J-POP",
