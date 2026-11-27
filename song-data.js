@@ -140,6 +140,15 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "Your Best Friend",
+    "artist": "倉木麻衣",
+    "genre": "アニメ",
+    "type": "guitar",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "HANABI",
     "artist": "Mr.Children",
     "genre": "J-POP",
@@ -214,7 +223,16 @@ const songs = [
   {
     "title": "世界は恋に落ちている",
     "artist": "CHICO with Honey Works",
-    "genre": "ボカロ",
+    "genre": "アニメ",
+    "type": "karaoke",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "アイのシナリオ",
+    "artist": "CHICO with Honey Works",
+    "genre": "アニメ",
     "type": "karaoke",
     "practice": false,
     "special": false,
@@ -575,7 +593,7 @@ const songs = [
     "title": "Silly",
     "artist": "家入レオ",
     "genre": "J-POP",
-    "type": "karaoke",
+    "type": "guitar",
     "practice": true,
     "special": false,
     "favorite": false
@@ -734,6 +752,24 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "Automatic-Album Edit-",
+    "artist": "宇多田ヒカル",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "Flavor Of Life",
+    "artist": "宇多田ヒカル",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "センチメンタル・キス",
     "artist": "汐れいら",
     "genre": "J-POP",
@@ -801,7 +837,7 @@ const songs = [
     "artist": "カネコアヤノ",
     "genre": "J-POP",
     "type": "guitar",
-    "practice": true,
+    "practice": false,
     "special": false,
     "favorite": false
   },
@@ -865,6 +901,42 @@ const songs = [
     "genre": "J-POP",
     "type": "guitar",
     "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "疾走",
+    "artist": "きのこ帝国",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "猫とアレルギー",
+    "artist": "きのこ帝国",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "桜が咲く前に",
+    "artist": "きのこ帝国",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "ラプス",
+    "artist": "きのこ帝国",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
     "special": false,
     "favorite": false
   },
