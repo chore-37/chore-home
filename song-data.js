@@ -54,7 +54,7 @@ const artistReadings = {
   '福原みほ': 'ふくはらみほ',
   '松たか子': 'まつたかこ',
   '松田聖子': 'まつだせいこ',
-  '米津玄師': 'よねづけんし',
+  '米津玄師': 'よねづけんし','ストロベリー・フラワー': 'すとろべりー・ふらわー',
   '優里': 'ゆうり','milet,Aimer&幾多りら': 'みれい,えめあんどいくたりら','TOMOO': 'ともー','片平里菜': 'かたひらりな','mao': 'まお','fripSide': 'ふりっぷさいど','MISIA': 'みーしゃ','AI': 'あい','Mr.Children': 'みすたーちるどれん','M!LK': 'みるく',
   '藍井エイル': 'あおいえいる',  '緑黄色社会': 'りょくおうしょくしゃかい','Honey Works': 'はにーわーくす','CHICO with Honey Works': 'ちこうぃずはにーわーくす','mona': 'もな',
   'あいみょん':'あいみょん','アイナ・ジ・エンド':'あいなじえんど','あたらよ':'あたらよ','新垣結衣':'あらがきゆい','嵐 二宮和也':'あらしにのみやかずなり','杏里':'あんり','アンジェラ・アキ':'あんじぇらあき','家入レオ':'いえいりれお','いきものがかり':'いきものがかり','幾田りら':'いくたりら','井上あずみ':'いのうえあずみ','今井美樹':'いまいみき','イルカ':'いるか','岩崎良美':'いわさきよしみ','汐れいら':'うしおれいら','カネコアヤノ':'かねこあやの','かりゆし58':'かりゆしごじゅうはち','きのこ帝国':'きのこていこく','木村弓':'きむらゆみ','クリープハイプ':'くりーぷはいぷ','結束バンド':'けっそくばんど','欅坂46':'けやきざかふぉーてぃーしっくす','倖田來未':'こうだくみ','コレサワ':'これさわ','ゴールデンボンバー':'ごーるでんぼんばー','櫻坂46':'さくらざかふぉーてぃーしっくす','小枝理子、小笠原秋':'こえだりここがさわらしゅう','さユり':'さゆり','島谷ひとみ':'しまたにひとみ','シド':'しど','シェネル':'しぇねる','スキマスイッチ':'すきますいっち','スピッツ':'すぴっつ','すずきまゆみ':'すずきまゆみ','ずっと真夜中でいいのに。':'ずっとまよなかでいいのに','関取花':'せきとりはな','セシル・コルベル':'せしるこるべる','相対性理論':'そうたいせいりろん','高橋洋子':'たかはしようこ','チャットモンチー':'ちゃっともんちー','ちゃんみな':'ちゃんみな','つじあやの':'つじあやの','とた':'とた','中村倫也、木下晴香':'なかむらともやきのしたはるか','夏川りみ':'なつかわりみ','西内まりや':'にしうちまりや','にしな':'にしな','乃木坂46':'のぎざかふぉーてぃーしっくす','秦基博':'はたもとひろ','羊文学':'ひつじぶんがく','一青窈':'ひととよう','フジタカコ':'ふじたかこ','星街すいせい':'ほしまちすいせい','ポルノグラフィティ':'ぽるのぐらふぃてぃ','マカロニえんぴつ':'まかろにえんぴつ','松たか子、神田沙也加':'まつたかこかんださやか','美波':'みなみ','ももいろクローバーZ':'ももいろくろーばーぜっと','屋比久知奈':'やびくともな','由薫':'ゆうか','ゆず':'ゆず','ヨルシカ':'よるしか',
@@ -244,6 +244,15 @@ const songs = [
     "genre": "J-POP",
     "type": "guitar",
     "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "愛を伝えたいだとか",
+    "artist": "あいみょん",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
     "special": false,
     "favorite": false
   },
@@ -1049,6 +1058,15 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "オレンジ",
+    "artist": "クリープハイプ",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "明日晴れるかな",
     "artist": "桑田佳祐",
     "genre": "J-POP",
@@ -1106,8 +1124,8 @@ const songs = [
     "title": "愛情",
     "artist": "小柳ゆき",
     "genre": "J-POP",
-    "type": "karaoke",
-    "practice": true,
+    "type": "guitar",
+    "practice": false,
     "special": false,
     "favorite": false
   },
@@ -1159,6 +1177,15 @@ const songs = [
   {
     "title": "歌うたいのバラッド",
     "artist": "斉藤和義",
+    "genre": "J-POP",
+    "type": "guitar",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "愛のうた",
+    "artist": "ストロベリー・フラワー",
     "genre": "J-POP",
     "type": "guitar",
     "practice": false,
@@ -1220,6 +1247,15 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "世界の秘密",
+    "artist": "さユり",
+    "genre": "アニメ",
+    "type": "guitar",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "十億年",
     "artist": "さユり",
     "genre": "J-POP",
@@ -1268,6 +1304,15 @@ const songs = [
     "title": "YUME日和",
     "artist": "島谷ひとみ",
     "genre": "アニメ",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "亜麻色の髪の乙女",
+    "artist": "島谷ひとみ",
+    "genre": "J-POP",
     "type": "karaoke",
     "practice": true,
     "special": false,
@@ -1400,11 +1445,65 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "ミス・パラレルワールド",
+    "artist": "相対性理論",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "チャイナアドバイス",
+    "artist": "相対性理論",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "スマトラ警備隊",
+    "artist": "相対性理論",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "人工衛星",
+    "artist": "相対性理論",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "LOVEずっきゅん",
+    "artist": "相対性理論",
+    "genre": "J-POP",
+    "type": "karaoke",
+    "practice": true,
+    "special": false,
+    "favorite": false
+  },
+  {
     "title": "残酷な天使のテーゼ",
     "artist": "高橋洋子",
     "genre": "アニメ",
     "type": "karaoke",
     "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "魂のルフラン",
+    "artist": "高橋洋子",
+    "genre": "アニメ",
+    "type": "karaoke",
+    "practice": true,
     "special": false,
     "favorite": false
   },
@@ -1422,6 +1521,15 @@ const songs = [
     "artist": "チャットモンチー",
     "genre": "J-POP",
     "type": "guitar",
+    "practice": false,
+    "special": false,
+    "favorite": false
+  },
+  {
+    "title": "シャングリラ",
+    "artist": "チャットモンチー",
+    "genre": "J-POP",
+    "type": "karaoke",
     "practice": false,
     "special": false,
     "favorite": false
@@ -1737,7 +1845,7 @@ const songs = [
     "artist": "フジタカコ",
     "genre": "J-POP",
     "type": "guitar",
-    "practice": false,
+    "practice": true,
     "special": false,
     "favorite": false
   },
@@ -1931,6 +2039,60 @@ const songs = [
     "favorite": false
   },
   {
+    "title": "アルジャーノン",
+    "artist": "ヨルシカ",
+    "genre": "J-POP",
+    "type": "guitar",
+    "practice": false,
+    "special": false,
+    "favorite": false
+   },
+  {
+    "title": "斜陽",
+    "artist": "ヨルシカ",
+    "genre": "J-POP",
+    "type": "guitar",
+    "practice": true,
+    "special": false,
+    "favorite": false
+   },
+  {
+    "title": "ブレーメン",
+    "artist": "ヨルシカ",
+    "genre": "J-POP",
+    "type": "guitar",
+    "practice": true,
+    "special": false,
+    "favorite": false
+   },
+  {
+    "title": "夜行",
+    "artist": "ヨルシカ",
+    "genre": "J-POP",
+    "type": "guitar",
+    "practice": true,
+    "special": false,
+    "favorite": false
+   },
+  {
+    "title": "晴る",
+    "artist": "ヨルシカ",
+    "genre": "J-POP",
+    "type": "guitar",
+    "practice": true,
+    "special": false,
+    "favorite": false
+   },
+  {
+    "title": "夢灯籠",
+    "artist": "RADWIMPS",
+    "genre": "J-POP",
+    "type": "guitar",
+    "practice": true,
+    "special": false,
+    "favorite": false
+   },
+  {
     "title": "嘘月",
     "artist": "ヨルシカ",
     "genre": "アニメ",
@@ -1943,7 +2105,7 @@ const songs = [
     "title": "盗作",
     "artist": "ヨルシカ",
     "genre": "J-POP",
-    "type": "karaoke",
+    "type": "guitar",
     "practice": false,
     "special": false,
     "favorite": false
